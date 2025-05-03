@@ -1,7 +1,12 @@
+*{
+    box-sizing:border-box;
+  }
+
+
 .header{
     background-image:url(IMG_1905.JPG);
     color:white;
-    background-size: cover;
+    background-size: contain;
     height: 850px;
     text-align: center;
     margin-top: 0px;
@@ -15,6 +20,7 @@
     left: 0;
     right: 0;
     z-index: 10;
+    width: 100%;
 
 }
 
@@ -23,12 +29,12 @@
     padding-bottom:0px;
     letter-spacing: 5px;
 }
-
 .container h2{
     font-size: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
 }
+
 img{
     height: 90px;
     width: 90px;
@@ -44,7 +50,6 @@ img{
     color: white;
     transition: all 0.5s;
 }
-
 .btn:hover{
     background-color: rgb(19, 41, 19);
 }
