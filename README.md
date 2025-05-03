@@ -1,1 +1,1 @@
-# p.d.e.sqare
+# p.d.e.square
