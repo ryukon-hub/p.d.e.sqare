@@ -6,7 +6,7 @@
 .header{
     background-image:url(IMG_1905.JPG);
     color:white;
-    background-size: contain;
+    background-size: cover,contain;
     height: 850px;
     text-align: center;
     margin-top: 0px;
