@@ -1,0 +1,15 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .header {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .header {
+    width: 100%;
+  }
+}
